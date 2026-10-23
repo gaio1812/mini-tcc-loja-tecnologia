@@ -30,7 +30,7 @@ final class MainFrame extends JFrame {
 
     MainFrame(StoreService service,Database db,boolean loadData) {
         this.service=service; this.db=db;
-        setTitle("Loja Tecnologia • Sistema de vendas"); setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setTitle("TecnoLoja • Sistema de vendas"); setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(1180,780); setMinimumSize(new Dimension(980,680)); setLocationRelativeTo(null);
         JPanel root=new JPanel(new BorderLayout());
         root.add(sidebar(),BorderLayout.WEST);
@@ -62,7 +62,7 @@ final class MainFrame extends JFrame {
         JPanel side=new JPanel(new BorderLayout(0,25)); side.setPreferredSize(new Dimension(215,0));
         side.setBackground(Ui.INK); side.setBorder(new EmptyBorder(30,18,22,18));
         JPanel top=Ui.column();
-        JLabel brand=new JLabel("LOJA TECNOLOGIA"); brand.setForeground(Color.WHITE); brand.setFont(new Font("Segoe UI",Font.BOLD,17));
+        JLabel brand=new JLabel("TecnoLoja"); brand.setForeground(Color.WHITE); brand.setFont(new Font("Segoe UI",Font.BOLD,17));
         top.add(brand); top.add(Box.createVerticalStrut(8));
         JLabel subtitle=new JLabel("Gestão de vendas"); subtitle.setForeground(new Color(175,199,224)); top.add(subtitle);
         top.add(Box.createVerticalStrut(30));

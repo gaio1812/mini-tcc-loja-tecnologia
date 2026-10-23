@@ -15,11 +15,11 @@ final class LoginFrame extends JFrame {
 
     LoginFrame(StoreService service, Database db, boolean hasUsers) {
         this.service=service; this.db=db;
-        setTitle("Loja Tecnologia • Acesso"); setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setTitle("TecnoLoja • Acesso"); setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(550,700); setMinimumSize(new Dimension(500,680)); setLocationRelativeTo(null);
         JPanel root = new JPanel(new BorderLayout(0,16)); root.setBackground(Ui.BG); root.setBorder(new EmptyBorder(26,45,22,45));
         JPanel brand = Ui.column();
-        JLabel logo = new JLabel("LOJA / TECNOLOGIA"); logo.setForeground(Ui.BLUE); logo.setFont(new Font("Segoe UI",Font.BOLD,15));
+        JLabel logo = new JLabel("TecnoLoja"); logo.setForeground(Ui.BLUE); logo.setFont(new Font("Segoe UI",Font.BOLD,15));
         brand.add(logo); brand.add(Box.createVerticalStrut(12)); brand.add(Ui.title("Seu negócio, organizado."));
         root.add(brand,BorderLayout.NORTH);
         content.setOpaque(false); content.add(loginPanel(),"login"); content.add(registerPanel(hasUsers),"register");

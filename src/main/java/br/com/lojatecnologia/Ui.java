@@ -144,7 +144,7 @@ final class Ui {
     static boolean confirm(Component owner,String text) {
         return JOptionPane.showConfirmDialog(owner,text,"Confirmar",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION;
     }
-    static void info(Component owner,String text) { JOptionPane.showMessageDialog(owner,text,"Loja Tecnologia",JOptionPane.INFORMATION_MESSAGE); }
+    static void info(Component owner,String text) { JOptionPane.showMessageDialog(owner,text,"TecnoLoja",JOptionPane.INFORMATION_MESSAGE); }
 
     static void export(Component owner,JTable table,String filename) {
         JFileChooser chooser = new JFileChooser(); chooser.setSelectedFile(new File(filename + ".csv"));
