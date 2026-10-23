@@ -1,4 +1,4 @@
-LOJA TECNOLOGIA - SISTEMA DESKTOP
+TecnoLoja - SISTEMA DESKTOP
 
 1. Tenha Java 17 ou superior instalado.
 2. Extraia esta pasta inteira. Mantenha a pasta lib junto do arquivo JAR.
