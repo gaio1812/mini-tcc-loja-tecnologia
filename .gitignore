@@ -1,0 +1,14 @@
+/build/
+/dist/
+/lib/
+/data/
+/logs/
+/config.properties
+*.mv.db
+*.trace.db
+*.log
+.idea/
+.vscode/
+*.class
+*.zip
+!/Loja-Tecnologia-Windows.zip
