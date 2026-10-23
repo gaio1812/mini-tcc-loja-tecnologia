@@ -1,4 +1,4 @@
-# Loja Tecnologia — Mini TCC
+# TecnoLoja — Mini TCC
 
 Sistema **desktop em Java Swing** para uma loja de tecnologia. Inclui cadastro e login de usuários, clientes, produtos, controle de estoque, registro e cancelamento de vendas, painel de resumo e exportação CSV.
 
